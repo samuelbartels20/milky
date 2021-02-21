@@ -1,0 +1,45 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 29/05/2020 18:01
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;        
+}
+
+.flaticon-null:before { content: "\f100"; }
+.flaticon-null-1:before { content: "\f101"; }
+.flaticon-null-2:before { content: "\f102"; }
+.flaticon-null-3:before { content: "\f103"; }
+.flaticon-null-4:before { content: "\f104"; }
+.flaticon-crecimiento:before { content: "\f105"; }
+.flaticon-soporte-tecnico:before { content: "\f106"; }
+.flaticon-proyecto:before { content: "\f107"; }
+.flaticon-avion:before { content: "\f108"; }
+.flaticon-avion-1:before { content: "\f109"; }
+.flaticon-central:before { content: "\f10a"; }
+.flaticon-retroalimentacion:before { content: "\f10b"; }
+.flaticon-bloquear-usuario:before { content: "\f10c"; }
+.flaticon-vasos:before { content: "\f10d"; }
+.flaticon-pantalla:before { content: "\f10e"; }
+.flaticon-codigo:before { content: "\f10f"; }
